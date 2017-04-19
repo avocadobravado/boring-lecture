@@ -38,3 +38,4 @@ img.intro {
 }
 
 /*Create CSS rules for h2.intro, p.intro, and img.intro. Remember that in CSS, classes are prefaced with a .*/
+/*Rewrite the boring-lecture page and remove the intro class from the elements themselves, and create a <div> with the intro class to hold the elements*/
