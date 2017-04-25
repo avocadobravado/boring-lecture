@@ -2,9 +2,13 @@ body {
   background-color: yellow;
   text-align: center;
   font-family: Comic Sans MS;
-  margin: 0 15%;
+  margin: 0 5%;
   padding: 0 2%;
   border: solid 10px #000;
+}
+
+.red-text {
+  color: red;
 }
 
 h1 {
@@ -24,17 +28,39 @@ h1 {
 
 }
 
-h2.intro {
+h2.container {
   color: #088e68;
 }
 
-p.intro {
+p.container {
   font-size: 18px;
   letter-spacing: 1.1px;
 }
 
-img.intro {
-  width: 500px;
+img.action {
+  width: 60%;
+}
+
+.button-area {
+}
+
+.btn {
+  float: left;
+  margin: 0.3%;
+}
+
+.dark-background {
+  background-color: #000;
+}
+
+.border {
+  display: none;
+  border: 1px black solid;
+  background-color: green;
+}
+
+.no-border {
+
 }
 
 /*Create CSS rules for h2.intro, p.intro, and img.intro. Remember that in CSS, classes are prefaced with a .*/

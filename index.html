@@ -1,17 +1,33 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
     <title>Boring Lecture</title>
   </head>
   <body>
-    <div class="intro">
+    <div class="container">
       <h1>The History of Comic Books</h1>
-      <h2>Lorem ipsum dolor sit amet, consectetur adipisicing.</h2>
-      <p>Have you ever wondered what came before Superman? Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <img src="images/comic.gif" alt="Early Superman Comic Book"/>
+      <div class="button-area">
+      <button type="button" class="btn btn-primary" id="background-button">Change background</button>
+      <button type="button" class="btn btn-primary" id="text-button">Change text</button>
+      <h2>Click the Button to Change Text Color!</h2>
+      </div>
+      <p class="border">Have you ever wondered what came before Superman? Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="no-border">Have you ever wondered what came before Superman? Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <img class="action" src="images/comic.gif" alt="Early Superman Comic Book"/>
       <p>Then Spiderman said, lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
   </body>
 </html>
+
+
+<!-- Most people like dark text on a light background, but some people prefer light text on a dark background. Update your dog blog or cat homepage to include a button that lets your users switch to light on dark.
+Now, update this page so that users can switch back to the original color scheme.
+Update your boring lecture page so that when somebody clicks on a paragraph, it highlights it and adds a box around the edges. -->
